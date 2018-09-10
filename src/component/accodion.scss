@@ -1,0 +1,140 @@
+@import 'styles/_init';
+
+.filter-accordion {
+	&_accordion-content {
+		padding: 1rem 2rem;
+		display: flex;
+		flex-direction: column;
+		border-radius: 10%;
+		overflow-y: auto;
+	}
+
+	&_fold {
+		border-top: 2px solid #abb0b8;
+		padding: 1px;
+
+		&_trigger {
+			text-align: start;
+			width: 100%;
+			padding: 1rem 0 1rem 0;
+			border: none;
+			outline: none;
+			background: none;
+			cursor: pointer;
+
+			&:before {
+				font-family: Amplitude;
+				content: ">";
+				display: block;
+				float: left;
+				font-weight: bolder;
+				padding: 1px 7px 0px 3px;
+				transition: transform 400ms;
+				transform-origin: 20%;
+				color: black;
+				transform: rotateZ(90deg);
+				height: 9px;
+			}
+
+			&.open:before {
+				transform: rotateZ(270deg);
+			}
+		}
+
+		&_content {
+			display: none;
+			max-height: 0;
+			opacity: 0;
+			transition: max-height 400ms linear;
+
+			&.open {
+				display: block;
+				max-height: 200px;
+				opacity: 1;
+				overflow: hidden;
+				overflow-y: auto;
+			}
+		}
+
+		&_ul {
+			list-style: none;
+			padding-left: 2px;
+			margin: 0px;
+		}
+
+		&_text {
+			@include map-font-style(link-text, jp-large);
+			height: 18px;
+			margin-bottom: 7px;
+			color: map-get($jp-colors, medium-grey);
+		}
+
+		&_btn {
+			text-align: start;
+			width: 100%;
+			border: none;
+			outline: none;
+			background: none;
+			cursor: pointer;
+			height: auto;
+		}
+	}
+
+	&_filter {
+		margin-left: 32px;
+		margin-top: 29px;
+
+		&_refined {
+			height: 20px;
+			font-size: 18px;
+			font-weight: 500;
+			color: map-get($jp-colors, dark-grey);
+			margin-bottom: 10px;
+		}
+
+		&_text {
+			@include map-font-style(nav-link, jp-large);
+			background-color: #f2f0f1;
+			padding: 6px 10px 6px 11px;
+			margin: 2px;
+			height: 15px;
+			color: map-get($jp-colors, medium-grey);
+			display: inline-block;
+		}
+
+		&_cross {
+			margin-left: 5px;
+			cursor: pointer;
+		}
+
+		&_clear {
+			height: 15px;
+			@include map-font-style(nav-link, jp-large);
+			font-family: Amplitude;
+			color: map-get($jp-colors, medium-grey);
+			cursor: pointer;
+			display: inline-block;
+		}
+	}
+
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 5px grey;
+		border-radius: 10px;
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: grey;
+		border-radius: 10px;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #b30000;
+	}
+}

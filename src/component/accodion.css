@@ -1,0 +1,517 @@
+@charset "UTF-8";
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jp-icons', fantasy !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-carrot-line::after {
+  content: "\E900";
+}
+
+.icon-carrot::after {
+  content: "\E901";
+}
+
+.icon-chapter-mobile::after {
+  content: "\E902";
+}
+
+.icon-close::after {
+  content: "\E903";
+}
+
+.icon-common-questions-arrow::after {
+  content: "\E904";
+}
+
+.icon-download::after {
+  content: "\E905";
+}
+
+.icon-facebook::after {
+  content: "\E906";
+}
+
+.icon-instagram::after {
+  content: "\E907";
+}
+
+.icon-jpm-sig::after {
+  content: "\E908";
+}
+
+.icon-left::after {
+  content: "\E909";
+}
+
+.icon-linkedin::after {
+  content: "\E90A";
+}
+
+.icon-location::after {
+  content: "\E90B";
+}
+
+.icon-menu::after {
+  content: "\E90C";
+}
+
+.icon-offsite::after {
+  content: "\E90D";
+}
+
+.icon-pause::after {
+  content: "\E90E";
+}
+
+.icon-play::after {
+  content: "\E90F";
+}
+
+.icon-quote-bottom::after {
+  content: "\E910";
+}
+
+.icon-quote-full::after {
+  content: "\E911";
+}
+
+.icon-quote-top::after {
+  content: "\E912";
+}
+
+.icon-right::after {
+  content: "\E913";
+}
+
+.icon-search::after {
+  content: "\E914";
+}
+
+.icon-share::after {
+  content: "\E915";
+}
+
+.icon-short-arrow::after {
+  content: "\E916";
+}
+
+.icon-tag::after {
+  content: "\E917";
+}
+
+.icon-twitter::after {
+  content: "\E918";
+}
+
+.icon-utility-contact::after {
+  content: "\E919";
+}
+
+.icon-utility-jpm-Icon::after {
+  content: "\E91A";
+}
+
+.icon-utility-location::after {
+  content: "\E91B";
+}
+
+.icon-utility-login::after {
+  content: "\E91C";
+}
+
+.icon-utility-search::after {
+  content: "\E91D";
+}
+
+.icon-printer::after {
+  content: "\E954";
+}
+
+.icon-redo2::after {
+  content: "\E968";
+}
+
+.icon-user::after {
+  content: "\E971";
+}
+
+.icon-plus::after {
+  content: "\EA0A";
+}
+
+.icon-minus::after {
+  content: "\EA0B";
+}
+
+.icon-Arrow-Down_Black::after {
+  content: "\E91E";
+}
+
+.icon-Arrow-Up-Black::after {
+  content: "\E91F";
+}
+
+.icon-Audio_Play::after {
+  content: "\E921";
+}
+
+.icon-calendar::after {
+  content: "\E922";
+}
+
+.icon-close2::after {
+  content: "\E923";
+}
+
+.icon-download2::after {
+  content: "\E924";
+}
+
+.icon-email-icon::after {
+  content: "\E925";
+}
+
+.icon-Form-Field-Error::after {
+  content: "\E926";
+}
+
+.icon-Form-Field-Regular::after {
+  content: "\E927";
+}
+
+.icon-Form_Circle_Open::after {
+  content: "\E928";
+}
+
+.icon-Form_Square_Error::after {
+  content: "\E929";
+}
+
+.icon-Form_Square_Open::after {
+  content: "\E92A";
+}
+
+.icon-Gray-Circle::after {
+  content: "\E92B";
+}
+
+.icon-Gray-Circles::after {
+  content: "\E92C";
+}
+
+.icon-linkedIn2::after {
+  content: "\E92D";
+}
+
+.icon-Open-Circle::after {
+  content: "\E92F";
+}
+
+.icon-play2::after {
+  content: "\E930";
+}
+
+.icon-print::after {
+  content: "\E931";
+}
+
+.icon-Right-Arrow-White::after {
+  content: "\E932";
+}
+
+.icon-share2::after {
+  content: "\E933";
+}
+
+.icon-Video_Play::after {
+  content: "\E934";
+}
+
+.icon-play-icon::after {
+  content: "\E935";
+}
+
+.icon-White-Arrow-Left::after {
+  content: "\E936";
+}
+
+.icon-wifi::after {
+  content: "\E937";
+}
+
+.icon-youtube::after {
+  content: "\E938";
+}
+
+.icon-lock::after {
+  content: "\E98F";
+}
+
+.jp__topLeft {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.jp__bottomLeft {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.jp__topRight {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.jp__bottomRight {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.jp__scaleImage {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.jp__white {
+  background: #ffffff;
+}
+
+.jp__whiteOpacity {
+  background: #ffffff;
+  opacity: 0.9;
+}
+
+.jp__pacificBlue {
+  background: #006496;
+}
+
+.jp__lightBlue {
+  background: #d8e2e5;
+}
+
+.jp__lightGreen {
+  background: #bdcbca;
+}
+
+.jp__mediumGrey {
+  background: #63666a;
+}
+
+.jp__lightGrey {
+  background: #f2f0f1;
+}
+
+@media (max-width: 767px) {
+  .jp__topLeft {
+    -o-object-fit: none;
+    object-fit: none;
+    -o-object-position: top left;
+    object-position: top left;
+  }
+
+  .jp__bottomLeft {
+    -o-object-fit: none;
+    object-fit: none;
+    -o-object-position: bottom left;
+    object-position: bottom left;
+  }
+
+  .jp__topRight {
+    -o-object-fit: none;
+    object-fit: none;
+    -o-object-position: top right;
+    object-position: top right;
+  }
+
+  .jp__bottomRight {
+    -o-object-fit: none;
+    object-fit: none;
+    -o-object-position: bottom right;
+    object-position: bottom right;
+  }
+}
+
+.filter-accordion {
+  width: 100%;
+}
+
+.filter-accordion_accordion-content {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 10%;
+  overflow-y: auto;
+}
+
+.filter-accordion_fold {
+  border-top: 2px solid #abb0b8;
+  padding: 1px;
+}
+
+.filter-accordion_fold_trigger {
+  text-align: start;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.filter-accordion_fold_trigger:before {
+  font-family: Amplitude;
+  content: ">";
+  display: block;
+  float: left;
+  font-weight: bolder;
+  padding: 1px 7px 0px 3px;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+  -webkit-transform-origin: 20%;
+  transform-origin: 20%;
+  color: black;
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+  height: 9px;
+}
+
+.filter-accordion_fold_trigger.open:before {
+  -webkit-transform: rotateZ(270deg);
+  transform: rotateZ(270deg);
+}
+
+.filter-accordion_fold_content {
+  display: none;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: max-height 400ms linear;
+  transition: max-height 400ms linear;
+}
+
+.filter-accordion_fold_content.open {
+  display: block;
+  max-height: 200px;
+  opacity: 1;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.filter-accordion_fold_ul {
+  list-style: none;
+  padding-left: 2px;
+  margin: 0px;
+}
+
+.filter-accordion_fold_text {
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: 'Amplitude', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  color: #2b2b2b;
+  height: 18px;
+  margin-bottom: 7px;
+  color: #63666a;
+}
+
+.filter-accordion_fold_btn {
+  text-align: start;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  height: auto;
+}
+
+.filter-accordion_filter {
+  margin-left: 32px;
+  margin-top: 29px;
+}
+
+.filter-accordion_filter_refined {
+  height: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+.filter-accordion_filter_text {
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: 'Amplitude', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #2b2b2b;
+  background-color: #f2f0f1;
+  padding: 6px 10px 6px 11px;
+  margin: 2px;
+  height: 15px;
+  color: #63666a;
+  display: inline-block;
+}
+
+.filter-accordion_filter_cross {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.filter-accordion_filter_clear {
+  height: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  font-family: 'Amplitude', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #2b2b2b;
+  font-family: Amplitude;
+  color: #63666a;
+  cursor: pointer;
+  display: block;
+  padding-top: 4%;
+}
+
+.filter-accordion ::-webkit-scrollbar {
+  width: 10px;
+}
+
+.filter-accordion ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.filter-accordion ::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+.filter-accordion ::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}

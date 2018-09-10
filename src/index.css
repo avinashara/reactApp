@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.filter-area{
+  width: 29%;
+    float: left;
+}
+.search-header{
+  width: 72%;
+  float: right;
+}
+.search-container{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.search-result{
+  width: 70%;
+    float: right;
+}
+
